@@ -36,12 +36,8 @@ github : https://github.com/Mika259
 """
 #display bannerku
 print(banner)
-os.system("echo 'type (1) for update , (0) for continue'")
-upt = int(input("Update? :"))
-if upt = 1:
-    os.system("rm -r ddos2 ; yes ; yes")
-    os.system("git clone https://github.com/Mika259/ddos2")
-    break
+print("""will be update /os.system("echo 'type (1) for update , (0) for continue'")
+upt = int(input("Update? :"))""")
 
 ip = raw_input("Masukkan Ip : ")
 port = input("Masukkan Port : ")
