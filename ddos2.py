@@ -31,13 +31,14 @@ os.system("echo 'except to israel'")
 time.sleep(2)
 #Bannerku
 banner="""
-Author : Mika259
-github : https://github.com/Mika259
+|------------------------------------|
+ Author : Mika259(M1K259)
+ Github : https://github.com/Mika259
+ Version : 0.1
+|------------------------------------|
 """
 #display bannerku
 print(banner)
-print("""will be update /os.system("echo 'type (1) for update , (0) for continue'")
-upt = int(input("Update? :"))""")
 
 ip = raw_input("Masukkan Ip : ")
 port = input("Masukkan Port : ")
