@@ -42,7 +42,7 @@ banner="""
 GREEN   = '\033[32m'
 CYAN    = '\033[36m'
 
-print(\033[32m banner)
+print(GREEN+ banner)
 
 ip = raw_input("Masukkan Ip : ")
 port = input("Masukkan Port : ")
