@@ -1,6 +1,7 @@
 # ddos2
 Ddos tool Free support me :)
 
+- help for all my mistakes now..
 
 #How to use :
 
