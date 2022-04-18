@@ -3,6 +3,10 @@ Ddos tool Free support me :)
 
 - help for all my mistakes now..
 
+#install request
+```
+pip2 install request
+```
 #How to use :
 
 
