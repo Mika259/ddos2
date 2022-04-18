@@ -8,7 +8,7 @@ Ddos tool Free support me :)
 
 ```
 
-git clone https://github.com/Mika259/ddos2</pre>
+git clone https://github.com/Mika259/ddos2
 
 cd ddos2
 
