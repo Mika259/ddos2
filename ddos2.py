@@ -21,20 +21,20 @@ bytes = random._urandom(1490)
 os.system("clear")
 
 #terminal display DDOS 2 as figlet
-os.system("figlet -f mono12 DDOS2")
+os.system("toilet -F border --metal -f mono12 Ddos2")
 
 #display text use echo (print)? Hehe
-os.system("      echo 'dont use for illegal activities'")
+os.system("echo 'dont use for illegal activities'")
 time.sleep(1)
 
-os.system("      echo 'except to israel'")
+os.system("echo 'except to israel'")
 time.sleep(2)
 #Bannerku
 banner="""
 |------------------------------------|
- Author : Mika259(M1K259)
- Github : https://github.com/Mika259
- Version : 0.1
+ +Author : Mika259(M1K259)+
+ +Github : https://github.com/Mika259+
+ +Version : 0.1+
 |------------------------------------|
 """
 #display bannerku
@@ -51,11 +51,11 @@ port = input("Masukkan Port : ")
 os.system("clear")
 
 time.sleep(0.5)
-os.system("echo '....Attack Starting....'")
+print("Attack Starting")
 time.sleep(1)
 os.system("clear")
 time.sleep(1)
-print("....Wait a seccond...")
+print("Wait a seccond")
 time.sleep(0.5)
 
 sent = 0
