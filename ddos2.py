@@ -1,3 +1,5 @@
+#lang=python
+
 import sys
 import socket
 import time
@@ -29,7 +31,7 @@ time.sleep(1)
 
 os.system("echo 'except to israel'")
 time.sleep(2)
-#Bannerku
+#Banner
 banner="""
 |------------------------------------|
  +Author : Mika259(M1K259)+
@@ -37,17 +39,17 @@ banner="""
  +Version : 0.1+
 |------------------------------------|
 """
-#display bannerku
+#display banner
 
 GREEN   = '\033[32m'
 CYAN    = '\033[36m'
 
 print(GREEN+ banner)
 
-ip = raw_input("Masukkan Ip : ")
-port = input("Masukkan Port : ")
+ip = raw_input("[+]Enter Ip : ")
+port = input("[+]Insert Port : ")
 
-#Run Untuk Terminal
+#Run for Terminal
 os.system("clear")
 
 time.sleep(0.5)
@@ -67,3 +69,4 @@ while True:
      if port == 65534:
        port = 1
 #Maaf jika ada Kesalahan , tolong tegur :)
+#sorry for mistakes , please teach us
