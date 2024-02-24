@@ -1,35 +1,42 @@
-# ddos2
-Ddos tool Free support me :)
+# ddos2 tool
+I made it to support Gaza(Palestine)
+AllEyesOnRafah
 
-- help for all my mistakes now..
+- help for all my mistakes.
 
-#install request
+Installation For Termux/Linux
+#install python version 2
+- Termux
 ```console
-pip2 install request
+pkg install python2 -y
 ```
-#python2
-```
-apt install python2 -y
-```
-
-
-#setup
+- Linux
 ```console
-chmod +x setup.sh & ./setup.sh
+sudo apt install python2 -y
+```
+- Termux/Linux
+#install requirements
+```console
+pip install -r requirements.txt
 ```
 #How to use :
 
-
-
+- clone file git into your terminal
 ```console
-
 git clone https://github.com/Mika259/ddos2
-
-cd ddos2
-
-python2 ddos2.py
-
 ```
 
+- open directory
+```console
+cd ddos2
+```
+
+- run a script tool
+```console
+python2 ddosMk.py
+```
+#savegaza
+#alleyesonrafah
+#opspetir
 #opsbedil
 #freepalestine
