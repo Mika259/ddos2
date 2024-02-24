@@ -1,11 +1,10 @@
 # ddos2 tool
 I made it to support Gaza(Palestine)
-AllEyesOnRafah
-
-- help for all my mistakes.
+#AllEyesOnRafah
+help for all my mistakes.
 
 Installation For Termux/Linux
-#install python version 2
+# install python version 2
 - Termux
 ```console
 pkg install python2 -y
@@ -15,11 +14,11 @@ pkg install python2 -y
 sudo apt install python2 -y
 ```
 - Termux/Linux
-#install requirements
+# install requirements
 ```console
 pip install -r requirements.txt
 ```
-#How to use :
+# How to use :
 
 - clone file git into your terminal
 ```console
