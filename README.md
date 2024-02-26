@@ -3,6 +3,9 @@ I made it to support Gaza(Palestine)
 #AllEyesOnRafah
 help for all my mistakes.
 
+# screenshot
+<img src="IMG_20240226_184527.jpg">
+
 Installation For Termux/Linux
 # install python version 2
 - Termux
